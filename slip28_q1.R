@@ -1,0 +1,6 @@
+m = matrix(10:19,nrow=2, ncol=2)
+print("Original matrix:")
+print(m)
+li= split(m, rep(1:ncol(m), each = nrow(m)))
+print("list from the said matrix:")
+print(li)
